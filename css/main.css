@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html {
+    font-family: 'Indie Flower', sans-serif;
+    color: #222;
+    background: silver url("../img/textured_paper.png");
+}
+
+body{font-size:1.5em;  margin: auto; line-height: 1.33;}
+
+header {
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+
+article {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+article > header {
+    padding: 0.5em;
+}
+
+a {
+    color: teal;
+}
+
+h1 {font-size: 2.5em;}
+
+h2 {font-size: 2em;}
+
+h3 {font-size: 1.7em;}
+
+section > h3, section > h2 { margin-top: 1em;}
+
+.fecha {
+    font-size: 1.5em;
+    font-variant: all-small-caps;
+}
+
+h4 {font-size: 1.5em}
+
+h1,h2,h3,h4 {max-width: 800px; margin: 0 auto;}
+
+main {max-width: 1000px; padding: 1em; margin: auto;}
+
+section > p:first-of-type {
+	margin-top: 1.5em;
+}
+
+li, p, ul {
+    font-size:1.15em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.comentarios {
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+dt {
+    font-size: 1.4em;
+    color: #800000;
+    margin-top: 3vh;
+}
+
+dd {
+    margin-top: 1.5vh;
+    font-size:1.15em;
+    max-width: 800px;
+}
+
+dd ul li {
+    font-size: 1em;
+}
+
+.identar, p + p {margin-top: 0.7em; text-indent: 1em;}
+
+li {
+    margin-left: 2em;
+}
+
+strong {
+    font-weight: bolder;
+    color: #800000}
+
+
+
+q::before{content:"\00ab";}
+q::after{content:"\00bb";}
+
+figure {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.lista {
+    text-align: left;
+}
+
+img { max-width:100%; margin: auto;}
+
+#introduccion {
+    max-width:700px;
+    text-align: left;
+    font-size: 1.33em;
+    margin: 0 auto 50vh auto;
+}
+
+
+.plinea {
+    font-variant: small-caps;
+    font-size: 1.33em;
+}
+
+a::before {content: "(";}
+a::after {content: ")";}
+
+a {text-decoration: none;}
+
+a.invisible {
+    text-decoration: none;
+    color: #222;
+}
+
+a.invisible:visited {
+    color: #222;
+}
+
+a.invisible:hover {
+    color: #444;
+}
+
+a.invisible::before{content:none;}
+a.invisible::after{content:none;}
+
+.poema {text-indent: 0; text-align: left; margin: 3vh auto; width: 80%;}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em 0;
+    margin: auto;
+    width: 90%;
+}
+
+nav li a::before{content:none;}
+nav li a::after{content:none;}
+
+a.anterior::before{content:"\00ab\00ab";}
+a.posterior::before{content:"\00bb\00bb";}
+
+nav li {list-style: none; font-size: 2em; margin: auto;}
+
+.no-indentar {text-indent: 0;}
+
+.em {font-style: italic;}
+
+.lagrimas {
+    background: url("../img/lagrimas.png") no-repeat;
+}
+
+
